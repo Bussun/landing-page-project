@@ -2,7 +2,6 @@
 
 * {
   font-family: 'Quicksand', sans-serif;
-  border: 2px solid white;
 }
 
 html {
@@ -81,7 +80,7 @@ a.nav-link {
 
 .mainimg {
   width: 50%;
-  flex: 0 1 auto;
+  flex: 1 0 auto;
 }
 
 .seemorebtn {
@@ -115,11 +114,12 @@ a.nav-link {
 .tour {
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: 290px;
   height: auto;
 }
 
 .tour-image {
+  width: 300px;
   border: 3px solid #3882F6;
   border-radius: 20px;
 }
