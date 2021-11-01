@@ -1,7 +1,3 @@
-* {
-  border: 2px solid red;
-}
-
 body {
   margin: 0;
   display:flex;
@@ -26,7 +22,8 @@ a {
 }
 
 .top {
-  height: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
@@ -37,6 +34,11 @@ a {
 .top-text {
   color: #F9FAF8;
   font-size: 48px;
+  width: 40%
+}
+
+.top-subtext {
+  width: 60%
 }
 
 .name {
@@ -88,6 +90,20 @@ a {
 
 .tour-text {
   text-align: center;
+}
+
+.testimony-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+}
+
+.quote {
+  text-align: center;
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: 200;
 }
 
 .footer {
