@@ -56,6 +56,40 @@ a {
   gap: 15px;
 }
 
+.mainimg {
+  width: 350px;
+  height: 150px;
+  flex: 0 0 auto;
+}
+
+.available-tours-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tours {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.tour {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: auto;
+}
+
+.tour-image {
+  border: 3px solid #3882F6;
+  border-radius: 20px;
+}
+
+.tour-text {
+  text-align: center;
+}
+
 .footer {
   justify-content: center;
   align-items: center;
