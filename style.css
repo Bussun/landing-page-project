@@ -3,6 +3,7 @@
 * {
   font-family: 'Quicksand', sans-serif;
 }
+
 body {
   margin: 0;
   display:flex;
@@ -88,7 +89,12 @@ a {
 .available-tours-section {
   display: flex;
   flex-direction: column;
+}
+
+.tour-section-headertext {
   text-align: center;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .tours {
@@ -138,6 +144,19 @@ a {
   align-items: center;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   background-color: #3882F6;
+}
+
+.check-out-title,
+.check-out-text {
+  color: white;
+}
+
+.check-out-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.check-out-text {
+  font-size: 18px;
 }
 
 .bottombtn {
