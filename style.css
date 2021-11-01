@@ -2,6 +2,11 @@
 
 * {
   font-family: 'Quicksand', sans-serif;
+  border: 2px solid white;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -45,7 +50,7 @@ a.nav-link {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   color: #F9FAF8;
 }
 
