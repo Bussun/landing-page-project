@@ -32,6 +32,7 @@ a.nav-link {
 #background {
   background-image: url(https://cdn.pixabay.com/photo/2016/10/12/23/49/bulgaria-1736362_960_720.jpg);
   background-size: cover;
+  height: 75vh;
 }
 
 .header,
@@ -195,7 +196,8 @@ a.nav-link {
 }
 
 .credits-section {
-    background-color: #E5E7EB;
+  background-color: #E5E7EB;
+  padding-left: 20px;
 }
 .footer {
   justify-content: center;
