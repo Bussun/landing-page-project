@@ -30,8 +30,9 @@ a.nav-link {
 }
 
 #background {
-  background-image: url(https://cdn.pixabay.com/photo/2016/10/12/23/49/bulgaria-1736362_960_720.jpg);
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://cdn.pixabay.com/photo/2016/10/12/23/49/bulgaria-1736362_960_720.jpg);
   background-size: cover;
+  background-attachment: fixed;
   height: 75vh;
 }
 
@@ -39,7 +40,6 @@ a.nav-link {
 .footer,
 .top {
   display: flex;
-  /*background-color: #1F2937;*/
 }
 
 .footer {
@@ -91,11 +91,6 @@ a.nav-link {
   gap: 15px;
 }
 
-.mainimg {
-  width: 50%;
-  flex: 1 0 auto;
-}
-
 .seemorebtn {
     border: none;
     background-color: #3882F6;
@@ -121,6 +116,7 @@ a.nav-link {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 2rem;
   gap: 30px;
   margin-bottom: 100px;
 }
@@ -216,9 +212,13 @@ a.nav-link {
   display: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 760px) {
   .header {
     flex-direction: column;
+  }
+
+  #background {
+    background-attachment: scroll;
   }
 
   .quote {
