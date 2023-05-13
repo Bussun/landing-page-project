@@ -1,0 +1,28 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.backgroundContainer {
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://cdn.pixabay.com/photo/2016/10/12/23/49/bulgaria-1736362_960_720.jpg);
+}
+
+header {
+    background: none;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.section {
+    background-color: #f1feee;
+}
